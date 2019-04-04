@@ -1,0 +1,58 @@
+p{
+	color:#000 !important; 
+	text-align: justify;
+}
+
+.chapter{
+	font-family: 'Courgette', cursive;
+	color: #220235;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+hr{
+	color: #F3C004;
+	width: 90%;
+	noshade:noshade;
+	margin-top: 0px;
+}
+
+.followme{
+	padding: 1px 1px 1px 1px;
+	margin-top: 20px;
+}
+
+.white{
+	color:#fff !important;
+	text-align: justify;
+}
+
+img{
+	border-radius: 50%;
+	width: 80%;
+	height: 80%;
+	margin-bottom: 5%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.bg-purpura{
+	background-color: #220235;			/* cambia */
+	padding-left: 30px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 5px;
+}
+
+h2,h1,h4{
+	font-family: 'Courgette', cursive;		/* cambia */
+	color: #F3C004;
+	text-align: center;
+}
+
+.img_aboutme{
+	height: 100%;
+	width: 80%;
+	border-radius: 0% !important;
+}

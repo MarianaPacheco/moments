@@ -1,0 +1,188 @@
+header, footer,nav{
+	background-color: #220235 !important; 
+}
+.logo{
+	width: 65px;
+	margin-left: 40px;
+	
+}
+
+.li-menu{
+	display: inline-block;
+	color: #fff;
+	margin-right:3%;
+}
+
+.mr{
+	width: 20px;
+	height: 20px;
+}
+
+.margen48{
+	margin-left: 38%;
+	padding-top:2.5%;
+}
+
+
+a{
+	list-style: none;
+	text-decoration: none !important;
+}
+
+a:visited{
+	color:#fff;
+}
+
+li,h5{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bg-morado{
+	background-color: #2E0159; 	
+}
+
+.bg-purpura{
+	background-color: #220235;
+}
+
+.bg-flores{
+ 	width: 100%;
+ 	margin-top: 2%;
+ 	margin-bottom: 2%;
+ 	background-image: url("../image/header-image.jpg");
+	background-size: 100% 400px;
+ 	background-repeat: no-repeat;
+}
+
+.bg_header{
+	width: 100%;
+	height: 400px;
+ 	margin-top: 3% !important; 
+ 	background-image: url("../image/bg_header.jpg");
+	background-size: 100% 400px;
+ 	background-repeat: no-repeat;
+ 	display: block;
+ 	margin: auto;
+}
+
+#div-banner{
+	width: 50%;
+	display: block;
+	margin: 12% auto;
+}
+
+h1{
+	font-size: 5em;
+	padding-top: 15%;
+	text-align: center;
+}
+
+h2,h1,h4{
+	font-family: 'Courgette', cursive;
+	color: #F3C004;
+}
+
+.ul-banner{
+	margin-top: 5%;
+	padding-bottom: 10%;
+	text-align: center;
+}
+
+.text-image{		Contenedor de texto e imagen section 2
+	width: 100%;
+}
+
+h4{
+	padding-top: 2%;
+}
+
+.p-i, h4{
+	font-weight: bold;
+}
+
+h5{
+	padding-bottom:6%; 
+}
+
+.p-i, h5, .li-menu{
+	font-style: italic;
+}
+
+.blacktext{
+	color:#000;
+	line-height: 35px;
+	font-style: italic;
+	text-align: justify;
+	font-size: 18px;
+}
+
+h6,h5,p{
+	color:#fff;
+}
+
+.margin{
+	margin-left: 7%;
+	margin-right: 2%; 
+}
+
+.pb-2{
+	padding-bottom: 2%;
+}
+
+.mt-2{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+iframe{
+	width: 100%;
+}
+
+form{		
+	width: 100%;
+	margin: auto;
+	padding: 5% 5%;
+}
+
+input{	
+	background-color: #000;	
+ 	width: 100%;
+ 	padding: 2% 8%;
+ 	font-size: 1.5em;
+ 	opacity: .5;
+ 	border:0px;
+ 	
+ }
+
+*::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color: #fff;
+}
+
+.icono{
+	display: inline-block;
+	border-radius: 100%;
+	width: 5%;
+	margin:2% 1%;
+}
+
+.ml-10{
+	margin-left: 10%;
+	/* margin-bottom: 2%; */
+}
+
+.pd{
+	padding: 2% 2%;
+}
+
+span{
+	color: gray;
+}
+
+html { 
+	overflow-x:hidden; 
+}
+
+.modal2{
+	width: 500px;
+}

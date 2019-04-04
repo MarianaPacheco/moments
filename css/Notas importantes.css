@@ -1,0 +1,64 @@
+/* <div class="clearfix visible-sm-block"></div>	
+Sirve para resolver errores cuando tienes una
+columna mas grande que otra */
+
+/* <class="col-md-offset-4(se refiere al numero de
+	columnas que quieres desplazar el elemento)">
+Desplaza una columna y deja el espacio vacio. */
+
+/* Dentro de los headers puedes aplicar la etiqueta small
+que te crea como un subtitulo con un estilo
+que te da bootstrap
+<h1>Titulo<small>texto secundario</small></h1>*/
+
+/* <p class="lead">abcdefghijk<p> Permite tener un parrafo 
+mas grande indicando que es mas importante esa parte */
+
+/* <p class=""><mark>abc</mark><p>  Etiqueta que grega un 
+subrayado como de marcatextos al parrafo */
+
+/* <p class=""><del>abc</del><p>  Etiqueta que tacha un texto
+para indicar al usuario que ha sido borrado */
+
+/* <p class=""><s>abc</s><p>  Etiqueta que tacha un texto */
+
+/* <p class=""><ins>abc</ins><p>  Etiqueta que subraya un texto para
+indicar al usuario que un texto ha sido agregado despues
+de haber escrito el articulo */
+
+/* <p class=""><u>abc</u><p>  Etiqueta que subraya un texto */
+
+/* <p class="small">abcdefghijk<p> Permite hacer mas pequeño
+el texto y hacer una diferencia con los otros parrafos */
+
+/* <p class="text-lowercase">abcdefghijk<p> Convierte todo
+el texto que este en mayusculas a minusculas */
+
+/* <p class="text-uppercase">abcdefghijk<p> Convierte todo
+el texto que este en minusculas a mayusculas */
+
+/* <p class="text-capitalize">abcdefghijk<p> Convierte la
+primer letra a mayuscula */
+
+/* <blockquote>
+<p>abcdefghijk<p>
+<footer>Mariana<cite title="fuente">Fuente</cite></footer>
+</blockquote> Citas de texto y quien dijo esa cita */
+
+/* <blockquote class="blockquote-reverse">
+<p>abcdefghijk<p>
+<footer>Mariana<cite title="fuente">Fuente</cite></footer>
+</blockquote> El texto se alinea hacia la derecha */
+
+/* <blockquote>
+<p>abcdefghijk Lorem ipsum <code><div class="col-6"</code>abcdefnk<p>
+Lo que esta entre las etiquetas code se muestra como una linea
+de codigo */
+
+/* <blockquote>
+<p>abcdefghijk Lorem ipsum <pre><div class="col-6"</pre>abcdefnk<p>
+Lo que esta entre las etiquetas code se muestra como un bloque
+de codigo */
+
+/* para que las imagenes sean responsivas se les tiene que
+agregar la clase img-responsive */
