@@ -1,0 +1,32 @@
+.contact{
+	width: 20%;
+	height: 20%;
+	display: inline-block;
+	margin-top: 2%;
+}
+
+.linkcontact {
+	color:#000!important;
+	font-weight: bold;
+}
+
+.estilo{
+	padding-top: 5%;
+	font-style: italic;
+}
+
+.marginfacebook{
+	margin-left: -10%;
+	margin-top: 8%;
+
+}
+
+.marginyoutube{
+	margin-left: -10%;
+	margin-top: 18%;
+}
+
+.marginpinterest{
+	margin-left: -3%;
+	margin-top: 24%;
+}

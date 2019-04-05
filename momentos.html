@@ -7,10 +7,9 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet" type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.css">
 	<link rel="stylesheet" href="css/momentos.css">
-	<link rel="stylesheet" href="css/diario.css">
+	<link rel="stylesheet" href="css/plantilla.css">
 	<link rel="stylesheet" href="css/main.css">		<!-- Prioridad para estilos -->
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="shortcut icon" href="favicon.ico">
@@ -19,7 +18,7 @@
 	<header>	<!-- Comienza header -->
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xs-12 col-md-12">
 					<nav class="navbar-inverse nav-bar-static-top nav-bar-static-top navbar-fixed-top" role="navigation">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
@@ -28,7 +27,9 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
+							<div class="col-xs-12 col-md-12 visible-lg">
 							<a href="#" class="navbar-brand"><img class="img-responsive logo" src="image/header-logo.png"></a>
+							</div>
 						</div>
 						<div class="collapse navbar-collapse" id="navegacion">
 							<ul class="margen48 nav navbar-nav">
@@ -47,10 +48,12 @@
 	<div class="container-fluid">		<!-- Background morado -->
 		<section>		<!-- Inicia seccion fondo flores -->
 			<div class="container">
-				<div class="bg_header">
+				<div id="div-banner" class="bg_header">
 				</div>
 			</div>
 		</section>		<!-- Termina seccion fondo flores -->
+		</section>		<!-- Termina seccion fondo flores -->
+		<hr>
 		<section>
 			<div class="container">
 				<div class="row">
@@ -67,16 +70,16 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-xs-2 col-sm-2 col-md-3 col-lg-3">
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<a href="https://www.instagram.com/mom_entsblog/" target="_blank"><img class="imginst img-responsive" src="image/im_instagram1.jpg" alt="image"></a>
 							</div>
-							<div class="col-xs-2 col-sm-3 col-md-2 col-lg-3">
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<a href="https://www.instagram.com/mom_entsblog/" target="_blank"><img class="imginst img-responsive" src="image/im_instagram5.jpg" alt="image"></a>
 							</div>
-							<div class="col-xs-2 col-sm-3 col-md-2 col-lg-3">
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<a href="https://www.instagram.com/mom_entsblog/" target="_blank"><img class="imginst img-responsive" src="image/im_instagram3.jpg" alt="image"></a>
 							</div>
-							<div class="col-xs-2 col-sm-3 col-md-2 col-lg-3">
+							<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 								<a href="https://www.instagram.com/mom_entsblog/" target="_blank"><img class="imginst img-responsive" src="image/im_instagram4.jpg" alt="image"></a>
 							</div>
 
@@ -123,6 +126,47 @@
 							</div>							
 						</div>
 					</div>
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 visible-lg">
+						<div class="row">
+							<div class="visible-lg">	<!-- Imgen 1 titulo y texto -->
+								<div class="text-image bg-purpura">
+									<h4>Bienvenido a Moments con M de mamá</h4>
+									<hr>
+									<img class="img-responsive" src="image/bienvenida.jpg" alt="image">
+									<p class="white">Gracias por leer este blog, creado por Mariana Pacheco con el  fin de
+									hacer la vida familiar más divertida, compartir tips para padres, actividades familiares divertidas, ideas de comida y estilo de vida de las mujeres entre otras cosas. </p>
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="visible-lg">
+								<div class="followme bg-purpura">					
+									<h4>Sígueme</h4>
+								</div>
+							</div>						
+						</div>
+						<div class="row">
+							<div class="col-lg-3 visible lg">
+								<a href="https://www.instagram.com/mom_entsblog/" target="_blank"><img class="img-responsive" src="image/instagram.png" alt="image"></a>
+							</div>
+							<div class="col-lg-3 visible lg">
+								<a href="http://bit.ly/Mom-entsFacebook" target="_blank"><img class="img-responsive" src="image/facebook.png" alt="image"></a>
+							</div>
+							<div class="col-lg-3 visible lg">
+								<a href="http://bit.ly/Mom-ents" target="_blank"><img class="img-responsive" src="image/youtube.png" alt="image"></a>
+							</div>
+							<div class="col-lg-3 visible lg">
+								<a href="https://www.pinterest.es/myanairam/mom-ents/" target="_blank"><img class="img-responsive" src="image/pinterest.png" alt="image"></a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="visible-lg bg-purpura">
+								<h4>Video reciente</h4>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/zfJPN7605Pw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>							
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -138,11 +182,4 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>	<!-- Archivo de js que ocupa bootstrap -->
 </body>
 </html>
-
-
-
-
-
-
-
 

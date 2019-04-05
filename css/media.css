@@ -11,9 +11,14 @@
 }
 
 #div-banner{
-	width: 100%;
-	display: block;
-	margin: 12% auto;
+	width: 800px; /*100%*/
+	/*display: block;*/
+	/*margin: 2% auto;*/
+	margin-top: -500%;
+	margin-bottom: -14%;
+	height: 400px;
+	margin-top: -18%!important; 
+	margin-left: -35%;
 }
 
 .ul-banner{
@@ -25,6 +30,29 @@
  	width: 100%;
  	padding: 5% 5%;
  	margin:5% 0%;
+}
+
+.contact{
+	width: 10%;
+	height: 10%;
+	display: inline-block;
+	margin-top: 2%;
+}
+
+.marginfacebook{
+	margin-left: 0%;
+	margin-top: 0%;
+
+}
+
+.marginyoutube{
+	margin-left: 0%;
+	margin-top: 0%;
+}
+
+.marginpinterest{
+	margin-left: 0%;
+	margin-top: 0%;
 }
 
 }
