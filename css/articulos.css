@@ -195,6 +195,22 @@ html {
 	overflow-x:hidden; 
 }
 
-.modal2{
-	width: 500px;
+.chapter{
+	font-family: 'Courgette', cursive;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: left;
+}
+
+#chapter1{
+	color: #220235;
+}
+
+#chapter2{
+	color: #583c69;
+}
+
+#diario{
+	font-size: 18px;
+	font-style: italic;
 }
