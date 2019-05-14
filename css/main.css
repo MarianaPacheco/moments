@@ -30,7 +30,11 @@ a{
 }
 
 a:visited{
-	color:#fff;
+	color:#22a1e4;	/* Color de link de prinsel, articulo sistemas de viaje seguro */
+}
+
+a:not(#prinsel) {
+  color:#FFF!important;		/* Especifíca que el link de prinsel no debe ser blanco y los demás si */
 }
 
 li,h5{
