@@ -37,10 +37,32 @@ h4{
 #sigueme{
 	text-align: center;
 	font-family: 'Titillium Web', sans-serif;
+	margin-top: 8%;
 }
 
 .date{
 	text-align: center;
 	color:#999!important;
 	font-style: italic;
+}
+
+.titulopublicados{
+	font-weight: bold;
+}
+
+.hrpublicado{	
+	border-top: 2px solid rgb(0,0,0) !important;
+	margin-left: 0%;
+	display: block;
+	max-width: 40px;
+	color: #161616;
+}
+
+.publicado{
+	text-align: left!important;
+}
+
+.imgpublicado{
+	border-radius: 0%!important;
+	width: 100%!important;
 }
